@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f0; /* light beige */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    background-color: #a41c1c; /* Resilient red (approx) */
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #eee;
+    padding: 1em;
+    text-align: center;
+}
