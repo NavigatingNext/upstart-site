@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" role="img" aria-label="Upstart">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#B51D1A"/>
+      <stop offset="1" stop-color="#DC6A63"/>
+    </linearGradient>
+  </defs>
+  <rect rx="12" width="56" height="56" fill="url(#g)"/>
+  <!-- Stylized U with toolbelt tick -->
+  <path d="M16 16 v12 c0 8 6 12 12 12s12-4 12-12V16h-6v12c0 4-2.7 6-6 6s-6-2-6-6V16h-6z" fill="#fff"/>
+  <path d="M16 38 h24 a8 8 0 0 1 -8 6 h-8 a8 8 0 0 1 -8 -6z" fill="#F1E7D8"/>
+  <text x="72" y="36" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="28" font-weight="800" fill="#1F2937">Upstart</text>
+</svg>
