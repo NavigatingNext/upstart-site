@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Contact | Upstart</title>
+  <meta name="description" content="">
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#B51D1A" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+
+</head>
+<body>
+  <div id="header-partial"></div>
+  <main id="main">
+  
+  <section class="section">
+  <div class="container">
+    <h1>Contact</h1>
+    <p>Have questions? Ready to get involved? We’d love to hear from you.</p>
+    <form action="mailto:info@example.org" method="post" enctype="text/plain" style="display:grid;gap:.75rem;max-width:640px;">
+      <label> Name
+        <input type="text" name="name" required aria-required="true" />
+      </label>
+      <label> Email
+        <input type="email" name="email" required aria-required="true" />
+      </label>
+      <label> I am a…
+        <select name="role" aria-label="Role">
+          <option>Student</option>
+          <option>Parent</option>
+          <option>Donor</option>
+          <option>Volunteer</option>
+          <option>Contractor</option>
+          <option>Company</option>
+          <option>School</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label> Message
+        <textarea name="message" rows="4" required aria-required="true"></textarea>
+      </label>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+  
+  </main>
+  <div id="footer-partial"></div>
+</body>
+</html>

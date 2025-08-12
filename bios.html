@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Student Stories | Upstart</title>
+  <meta name="description" content="">
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#B51D1A" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+
+</head>
+<body>
+  <div id="header-partial"></div>
+  <main id="main">
+  
+  <section class="section">
+  <div class="container">
+    <h1>Student Stories</h1>
+    <div role="tablist" aria-label="Filter by trade" style="display:flex;gap:.5rem;margin:.5rem 0 1rem;">
+      <button class="badge filter-chip active" data-trade="all">All</button>
+      <button class="badge filter-chip" data-trade="Electrician">Electrician</button>
+      <button class="badge filter-chip" data-trade="CNC">CNC</button>
+      <button class="badge filter-chip" data-trade="HVAC">HVAC</button>
+      <button class="badge filter-chip" data-trade="Welding">Welding</button>
+    </div>
+    <div class="grid-3">
+      <article class="card story-card" data-trade="CNC">
+        <img src="assets/images/story1.jpg" alt="Maya learning CNC with a mentor" loading="lazy" width="640" height="360">
+        <div class="body">
+          <h3>Maya — CNC</h3>
+          <p class="win">Earned NIMS Level 1 credential; hired by local shop.</p>
+          <blockquote>“I didn’t think I was a ‘math person.’ Now I run a CNC mill.”</blockquote>
+        </div>
+      </article>
+      <article class="card story-card" data-trade="Electrician">
+        <img src="assets/images/story2.jpg" alt="Luis in an electrical lab with safety gear" loading="lazy" width="640" height="360">
+        <div class="body">
+          <h3>Luis — Electrician</h3>
+          <p class="win">Placed into paid apprenticeship; saving for a car.</p>
+          <blockquote>“From part-time job to paid apprenticeship in 10 months.”</blockquote>
+        </div>
+      </article>
+      <article class="card story-card" data-trade="Welding">
+        <img src="assets/images/story3.jpg" alt="Tanya welding with proper PPE" loading="lazy" width="640" height="360">
+        <div class="body">
+          <h3>Tanya — Welding</h3>
+          <p class="win">Hired at a fabrication shop; OSHA‑10 certified.</p>
+          <blockquote>“I’m earning and saving—no loans.”</blockquote>
+        </div>
+      </article>
+      <article class="card story-card" data-trade="HVAC">
+        <img src="assets/images/story4.jpg" alt="Andre shadowing an HVAC installer" loading="lazy" width="640" height="360">
+        <div class="body">
+          <h3>Andre — HVAC</h3>
+          <p class="win">Secured summer internship; accepted into fall program.</p>
+          <blockquote>“Mentors helped me figure out my path.”</blockquote>
+        </div>
+      </article>
+      <article class="card story-card" data-trade="CNC">
+        <img src="assets/images/story5.jpg" alt="Jasmine inspecting a machined part with calipers" loading="lazy" width="640" height="360">
+        <div class="body">
+          <h3>Jasmine — CNC</h3>
+          <p class="win">First in family to enter skilled trades; thriving.</p>
+          <blockquote>“Hands‑on learning made it click.”</blockquote>
+        </div>
+      </article>
+      <article class="card story-card" data-trade="Electrician">
+        <img src="assets/images/story6.jpg" alt="Noah wiring a training board with a mentor" loading="lazy" width="640" height="360">
+        <div class="body">
+          <h3>Noah — Electrician</h3>
+          <p class="win">Entry test passed; placed on contractor crew.</p>
+          <blockquote>“Safety first, always. Then the skills stack up.”</blockquote>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+  
+  </main>
+  <div id="footer-partial"></div>
+</body>
+</html>

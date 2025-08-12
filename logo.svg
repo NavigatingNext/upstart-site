@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" role="img" aria-label="Upstart">
+  <rect x="0" y="0" width="220" height="48" fill="#FFFFFF"/>
+  <g transform="translate(8,10)">
+    <rect x="0" y="0" width="28" height="28" rx="6" fill="#B51D1A"/>
+    <path d="M8 20 L14 8 L20 20 Z" fill="#FFFFFF"/>
+  </g>
+  <text x="48" y="32" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="26" fill="#0F172A">Upstart</text>
+</svg>
